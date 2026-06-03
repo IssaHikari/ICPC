@@ -44,7 +44,7 @@
 <div align="center">
 <img src="https://d8it4huxumps7.cloudfront.net/bites/wp-content/banners/2025/1/6799ae760e1c9_graph_data_structure.jpg?d=1200x800" width="300px" alt="Graph Example"/>
 <br/>
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXZkcnM3aDhoMWNoMmlhMThqbDFqeHE1cHR0N2tibTJtdTNucHBqNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btNhMBytxAM6YBa/giphy.gif" width="250px" alt="Graph Animation"/>
+<img src="https://i.pinimg.com/originals/1a/ac/4c/1aac4c47ec04942f259cd0c37a0a5749.jpg" width="250px" alt="Graph Animation"/>
 </div>
 
 > **EN:** A **Graph** is a collection of **nodes (vertices)** connected by **edges**. It models relationships between objects — networks, maps, social connections, and more.
