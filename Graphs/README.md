@@ -227,34 +227,9 @@ count++;  // ❌ Moving one step at a time — WRONG!
 
 ### ✅ Correct Solution | 正确解法
 
-```cpp
-#include<bits/stdc++.h>
-using namespace std;
-
-int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    long long n, t;
-    cin >> n >> t;
-    vector<long long> a(n-1);
-    for (long long i = 0; i < n-1; i++) cin >> a[i];
-
-    long long count = 1;
-    while(count <= n-1){
-        long long tt = count + a[count - 1];
-        if (tt == t){
-            cout << "YES" << endl;
-            break;
-        } else if (tt > t){
-            cout << "NO" << endl;
-            break;
-        } else {
-            count = tt;  // ✅ Jump to destination! / 跳到目标格子！
-        }
-    }
-    return 0;
-}
-```
+<div align="center">
+<img src="img/Screenshot 2026-06-03 182932.png" width="600px" alt="Problem Screenshot"/>
+</div>
 
 ### 🔍 Trace Example | 执行追踪
 
@@ -288,7 +263,7 @@ Step 2: count=2 → tt = 2+2 = 4  → tt == t → ✅ YES
 ### 🖼️ Problem Screenshot | 题目截图
 
 <div align="center">
-<img src="https://i.imgur.com/placeholder_rumor.png" width="600px" alt="Rumor Problem"/>
+<img src="img/Screenshot 2026-06-03 183105.png" width="600px" alt="Rumor Problem"/>
 </div>
 
 ### 💡 Key Idea | 核心思路
