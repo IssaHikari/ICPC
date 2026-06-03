@@ -8,7 +8,7 @@
 # 🌐 Graph Theory in Competitive Programming
 ### 图论在竞技编程中的应用
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Master+Graph+Theory+%F0%9F%94%A5;从零开始掌握图论+%F0%9F%9A%80;DFS+%7C+BFS+%7C+Dijkstra+%7C+Union+Find;Two+Solved+Problems+Included+%E2%9C%85" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Master+Graph+Theory+%F0%9F%94%A5;%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%8E%8C%E6%8F%A1%E5%9B%BE%E8%AE%BA+%F0%9F%9A%80;DFS+%7C+BFS+%7C+Dijkstra+%7C+Union+Find;Two+Solved+Problems+Included+%E2%9C%85" alt="Typing SVG" />
 
 <br/>
 
