@@ -210,7 +210,7 @@ void unite(int x, int y) { parent[find(x)] = find(y); }
 ### 🖼️ Problem Screenshot | 题目截图
 
 <div align="center">
-<img src="https://codeforces.com/predownloaded/a5/78/a578c3cc6a15e3f9ca978db0a2e01df64e9d6673.png" width="600px" alt="Problem Screenshot"/>
+<img src="Graphs/img/Screenshot 2026-06-03 183014.png" width="600px" alt="Problem Screenshot"/>
 </div>
 
 ### 💡 Key Idea | 核心思路
