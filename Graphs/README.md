@@ -42,7 +42,7 @@
 ## 🔷 What is a Graph? | 什么是图？
 
 <div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/1200px-6n-graf.svg.png" width="300px" alt="Graph Example"/>
+<img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/1200px-6n-graf.svg.png](https://media.geeksforgeeks.org/wp-content/uploads/20250220130152745825/w-660.webp)" width="300px" alt="Graph Example"/>
 <br/>
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXZkcnM3aDhoMWNoMmlhMThqbDFqeHE1cHR0N2tibTJtdTNucHBqNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7btNhMBytxAM6YBa/giphy.gif" width="250px" alt="Graph Animation"/>
 </div>
