@@ -29,7 +29,7 @@ int main() {
 
         for (ll i = 0; i < m; i++) {
             cin >> p[i];
-            p[i]--;             
+            p[i]--;
         }
 
         bool changed = true;
