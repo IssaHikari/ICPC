@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"c:\\Users\\Marse\\Desktop\\ICPC\\aissa\\c.cpp","tests":[{"id":1786983747038,"input":"4\n2\n1\n1\n1\n3\n1 1\n3\n2 3 1\n3\n1 2\n2\n2 3\n6\n1 2 2 1 1\n3\n5 3 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Marse\\Desktop\\ICPC\\aissa\\c.cpp","group":"local","local":true}
