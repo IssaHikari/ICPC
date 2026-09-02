@@ -7,7 +7,12 @@ using namespace std;
 void solve(){
     ll n; 
     cin>> n;
-    
+    ll sum = n;
+    while(n > 1){
+      n /= 2;
+      sum += n;
+    }
+  cout<< sum <<endl;
 }
 
 int main() {
