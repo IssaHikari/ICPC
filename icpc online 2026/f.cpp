@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	
+	int n , m;
+	cin>> n >> m;
+
+	int lsy = 0;
+	int ans = 0;
+	for(int i=0; i<n;i++){
+		int sum = 0;
+		for(int j=0; j < m;j++){
+			int x; cin>> x;
+			sum += x;
+		}
+		if(i >= 0 && sum < lsy){
+			ans++;
+		}
+		lsy = sum;
+	}
+
+	cout<< ans << endl;
+
+	return 0;
+}
