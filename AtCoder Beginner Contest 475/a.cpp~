@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	ios::sycn_with_stdio(false);
+	cin.tie(0);
+
+	string s , new_s;
+	cin>> s;
+	bool add = false;
+	for(int i =0 ; i<s.length();i++){
+		if(add){
+			new_s += 'o';
+			add = false;
+		}
+		new_s += s[i];
+		add = true;
+	}
+	cout<< new_s <<endl;
+	return 0;
+}

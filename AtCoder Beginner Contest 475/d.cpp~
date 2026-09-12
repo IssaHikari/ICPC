@@ -1,0 +1,69 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int> getPattern(string s) {
+    map<char, int> mp;
+    int id = 0;
+    vector<int> pattern;
+
+    for (char c : s) {
+        if (mp.find(c) == mp.end()) {
+            mp[c] = id;
+            id++;
+        }
+
+        pattern.push_back(mp[c]);
+    }
+
+    return pattern;
+}
+
+bool isPrime(int x) {
+    if (x < 2)
+        return false;
+
+    for (int i = 2; i * i <= x; i++) {
+        if (x % i == 0)
+            return false;
+    }
+
+    return true;
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    string S;
+    cin >> S;
+
+    int len = S.size();
+
+    int start = 1;
+    for (int i = 1; i < len; i++) {
+        start *= 10;
+    }
+
+    int end = start * 10 - 1;
+
+    vector<int> targetPattern = getPattern(S);
+
+    for (int x = start; x <= end; x++) {
+
+        if (!isPrime(x))
+            continue;
+
+        string t = to_string(x);
+
+        vector<int> candidatePattern = getPattern(t);
+
+        if (candidatePattern == targetPattern) {
+            cout << x << '\n';
+            return 0;
+        }
+    }
+
+    cout << -1 << '\n';
+
+    return 0;
+}
