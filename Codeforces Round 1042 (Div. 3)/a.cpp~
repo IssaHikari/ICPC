@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+void solve(){
+	int n; 
+	cin>> n;
+	vector<int> a(n) , b(n);
+	for(int i = 0; i < n; i++) cin>>a[i];
+	for(int j = 0; j < n; j++) cin>>b[j];
+	bool swicher = true;
+	int count = 0;
+	while(1){
+		for(int i = 0; i < n; i++){
+			if(swicher){
+				if(a[i] > b[i]){
+					a[i]--;
+					count++;
+				}else {
+					break;
+				}
+				swicher = false;
+			}else {
+				if(a[i] < b[i]){
+					a[i]++;
+					count++;
+				}
+				swicher = true;
+			}
+		}
+	}
+	cout<< count << endl;
+}
+
+int main(){
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	int t;
+	cin>> t;
+
+	while(t--) solve();
+
+	return 0;
+}

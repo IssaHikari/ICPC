@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	int n , a , x , b ,y ;
+	cin>> n >> a >> x >> b >> y;
+	while(true){
+		if(a == b){
+			cout<<"YES\n";
+			break;
+		}
+
+
+		a = (a + 1) % n;
+		if(a == 0)
+			a++;
+
+		b = (b - 1) % n;
+		if(b == 0)
+			b = n;
+
+
+		if(a == x || b == y){
+			cout<<"NO\n";
+			break;
+		}			
+
+	}
+
+
+	return 0;
+}

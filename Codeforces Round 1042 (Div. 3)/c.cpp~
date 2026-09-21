@@ -1,0 +1,47 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define ll long long
+
+
+void solve(){
+	ll n , k;
+	cin>> n >> k;
+	vector<ll> S(n) , T(n);
+	for(int i =0; i<n; i++) cin>> S[i];
+	for(int i =0; i<n; i++) cin>> T[i];
+
+	for (int i = 0; i < n; i++) {
+
+    	bool found = false;
+
+    	for (int j = 0; j < T.size(); j++) {
+
+        	if ((S[i] == T[j]) || (S[i] % k == T[j] % k) || ((S[i] % k != 0) && (abs((S[i] % k) - k) == T[j] % k))) {
+            	T.erase(T.begin() + j);
+            	found = true;
+            	break;
+        	}
+    	}
+
+    	if (!found) {
+        	cout << "NO\n";
+        	return;
+    	}
+	}
+
+	cout << "YES\n";
+}
+
+int main(){
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	int t;
+	cin>> t;
+
+	while(t--) solve();
+
+	return 0;
+}

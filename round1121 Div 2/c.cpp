@@ -9,6 +9,7 @@ const int MAXN = 200000;
 ll fact[MAXN + 1];
 ll inv[MAXN + 1];
 
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
